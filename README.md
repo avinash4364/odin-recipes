@@ -1,4 +1,4 @@
 # odin-recipes
 
-Recipes Challenge from the Odin project course website.
-After completing this project i should have basic handle on my HTML, CSS skills.
+Recipes Challenge from [The Odin Project](https://www.theodinproject.com/) course website.
+After completing this project i should have good handle on my HTML and CSS knowledge.
