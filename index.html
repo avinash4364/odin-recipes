@@ -4,17 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="recipes/alooparatha.html">Aloo paratha</a></li>
-    </ul>
-    <ul>
-      <li><a href="recipes/friedchicken.html">Fried Chicken</a></li>
-    </ul>
-    <ul>
-      <li><a href="recipes/gajarkahalwa.html">Gajar Ka Halwa</a></li>
+    <h1 class="main-page--heading">Odin Recipes</h1>
+    <ul class="recipes-list">
+      <li>
+        <a href="recipes/alooparatha.html" type="image/jpeg"
+          ><img
+            src="images/aloo-ke-paratha.jpg"
+            alt="4 alooparatha plated with curd and pickle"
+            class="recipe-img"
+        /></a>
+        <h2 class="recipe-heading">Aloo paratha</h2>
+        <div class="recipe-desc--container">
+          <p class="recipe-desc">
+            Aloo Paratha is a popular Indian flatbread stuffed with...
+          </p>
+          <span class="recipe-link--container">
+            <a href="recipes/alooparatha.html" class="recipe-link"
+              >go to recipe</a
+            >
+          </span>
+        </div>
+      </li>
+
+      <li>
+        <a href="recipes/friedchicken.html" type="image/jpeg"
+          ><img
+            src="images/fried-chicken.jpg"
+            alt="Crispy Fried Chicken Tenders with Creamy Dip"
+            class="recipe-img"
+        /></a>
+        <h2 class="recipe-heading">Fried Chicken</h2>
+        <div class="recipe-desc--container">
+          <p class="recipe-desc">
+            Crispy fried chicken tenders are the ultimate comfort food...
+          </p>
+          <span class="recipe-link--container">
+            <a href="recipes/friedchicken.html" class="recipe-link"
+              >go to recipe</a
+            >
+          </span>
+        </div>
+      </li>
+
+      <li>
+        <a href="recipes/gajarkahalwa.html" type="image/jpeg"
+          ><img
+            src="images/gajar-ka-halwa.jpg"
+            alt="Carrot Pudding"
+            class="recipe-img"
+        /></a>
+        <h2 class="recipe-heading">Gajar Ka Halwa</h2>
+        <div class="recipe-desc--container">
+          <p class="recipe-desc">
+            Gajar Ka Halwa is a classic Indian dessert, a rich...
+          </p>
+          <span class="recipe-link--container">
+            <a href="recipes/gajarkahalwa.html" class="recipe-link"
+              >go to recipe</a
+            >
+          </span>
+        </div>
+      </li>
     </ul>
   </body>
 </html>

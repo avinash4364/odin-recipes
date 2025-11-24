@@ -1,0 +1,96 @@
+/* 
+main-page-bg-color - #f7f6f2 
+text-color - #2b2a29
+cards-bg-color - #e0dfdc
+button-background-color - #2c7b17
+span-color - #65635f
+font-family - nunito google fonts
+ */
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f6f2;
+  color: #2b2a29;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.main-page--heading {
+  background-color: #e0dfdc;
+  font-size: 48px;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.recipes-list {
+  list-style: none;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.recipes-list li {
+  width: 360px;
+}
+
+.recipes-list a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.recipe-img {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.recipe-desc--container {
+  text-align: center;
+  background-color: #e0dfdc;
+  padding: 12px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.recipe-heading {
+  background-color: #2b2a29;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.recipe-desc {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.recipe-link--container {
+  background-color: #2c7b17;
+  padding: 12px 24px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.recipe-link {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
